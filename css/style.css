@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("../image/bg-registration-form-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    margin-bottom: 30px;
+}
+body > div{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;;
+    background-color:aliceblue;
+    max-width: 900px;
+    width: 100%;
+}
+div.register-container{
+    width: 70%;
+}
+div.register-container form div.d-flex > div{
+  width: 50%;
+  padding: 0 5px;
+}
+body .left-img{
+    width: 30%;
+}
+body .left-img img{
+    width: 100%;
+}
